@@ -1,0 +1,29 @@
+{
+  "_id": ObjectId("unique_object_id"),
+  "data_id": "unique_data_id_from_snowflake",   # Link to a specific data point in Snowflake
+  "user_comments": [
+    {
+      "user_id": "unique_user_id",
+      "comment": "This is a user comment.",
+      "timestamp": ISODate("2024-08-22T12:34:56Z")
+    }
+  ],
+  "annotations": [
+    {
+      "annotator_id": "unique_user_id_or_system_id",
+      "annotation": "Additional metadata or information.",
+      "timestamp": ISODate("2024-08-22T12:34:56Z")
+    }
+  ],
+  "external_sources": [
+    {
+      "source_type": "publication",
+      "source_details": {
+        "title": "An External Article",
+        "url": "https://external-source.com/article",
+        "author": "Author Name",
+        "publication_date": ISODate("2024-08-20T00:00:00Z")
+      }
+    }
+  ]
+}
